@@ -1,2 +1,1 @@
-# HuJin-Final-project
-# HuJin-Final-project
+#Simon (jQuery Example)
