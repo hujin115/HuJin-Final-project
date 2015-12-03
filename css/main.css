@@ -115,28 +115,49 @@ img {
 
 .spots li {
    
-    background-color: gray;
+    /*background-color: gray;*/
     position: absolute;
-    opacity: 0.3;
+    /*opacity: 0.3;*/
 }
 .spots li:nth-child(1) {
-     width: 80px;
-    height: 50px;
+ 
     top: 280px;
     left: 560px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    border-radius: 100px;
+    border:3px red solid;
+
 }
 .spots li:nth-child(2) {
-     width: 30px;
-    height: 170px;
+    width: 30px;
+    height: 180px;
+    color: black;
+    border-radius: 100px;
+    border:3px red solid;
     top: 200px;
     left: 200px;
 }
 
 .spots li:nth-child(3) {
      width: 20px;
-    height: 170px;
-    top: 465px;
+    height: 180px;
+    color: black;
+    border-radius: 100px;
+    border:3px red solid;
+    top: 455px;
     left: 290px;
+}
+
+.hero {
+   /* opacity: 0.3;*/
+    display: none;
+    margin:0 auto;
+}
+.shown {
+    /*opacity: 1.0;*/
+    display: block;
 }
 
 
@@ -203,6 +224,7 @@ img {
     top: 20%;
 
 }
+
 
 
 
