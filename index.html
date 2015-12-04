@@ -9,7 +9,7 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -23,37 +23,81 @@
     <!-- <img src="img/help_icon.png" class="help"> -->
 
 
-        <div class="left">
-            <ul class="spots">
-                <li class="hero"></li>
-                <li class="hero"></li>
-                <li class="hero"></li>
-            </ul>
+        <div class="level" data-level="1">
+            <div class="left">
+                <ul class="spots">
+                    <li class="hero1" data-pair="1"></li>
+                    <li class="hero2" data-pair="2"></li>
+                    <li class="hero3" data-pair="3"></li>
+                    <li class="hero4" data-pair="4"></li>
+                </ul>
 
-            <img src="img/img1.png"> 
+                <img src="img/img1.png" class="first">
+            </div>
+            
+            <div class="right">
+                <ul class="spots">
+                    <li class="hero1" data-pair="1"></li>
+                    <li class="hero2" data-pair="2"></li>
+                    <li class="hero3" data-pair="3"></li>
+                    <li class="hero4" data-pair="4"></li>
+                </ul>
+
+                <img src="img/img2.png" class="first">
+            </div>
         </div>
-        
-        <div class="right">
-            <ul class="spots">
-                <li class="hero"></li>
-                <li class="hero"></li>
-                <li ></li>
-            </ul>
 
-            <img src="img/img2.png"> 
+
+
+
+        <div class="level" data-level="2">
+            <div class="left">
+                <ul class="spots">
+                    <li class="hero1" data-pair="1"></li>
+                    <li class="hero2" data-pair="2"></li>
+                    <li class="hero3" data-pair="3"></li>
+                   <!--  <li class="hero4" data-pair="4"></li> -->
+                </ul>
+
+                <img src="img/img3.png" class="second">
+
+            </div>
+            
+            <div class="right">
+                <ul class="spots">
+                    <li class="hero1" data-pair="1"></li>
+                    <li class="hero2" data-pair="2"></li>
+                    <li class="hero3" data-pair="3"></li>
+                   <!--  <li class="hero4" data-pair="4"></li> -->
+                </ul>
+
+                <img src="img/img4.png" class="second"> 
+            </div>
         </div>
 
+                
 
-         <h1> find fault</h1>
-         <img src="img/level.png" class="level">
-         <img src="img/score.png" class="score">
-         <img src="img/search.png" class="search">
-          <img src="img/pause.png" class="pause">
-          <img src="img/sounds.png" class="sounds">
+
+
+
+
+         <h1>Spot the Differences</h1>
+         <h2>Game Over!!!</h2>
+         
+         <!-- <img src="img/level.png" class="level">
+         <img src="img/score.png" class="score"> -->
+        <!--  <img src="img/search.png" class="search"> -->
+         <!--  <img src="img/pause.png" class="pause">
+          <img src="img/sounds.png" class="sounds"> -->
           <img src="img/watch.png" class="watch">
          
-
-
+<audio id="right">
+    <source src="audio/Tiny_Button_Push.mp3" type="audio/mp3"></source>
+</audio>
+<audio id="wrong">
+    <source src="audio/Punch.mp3" type="audio/mp3"></source>
+</audio>
+<div class="countdown">60</div>
 
 
     </div>

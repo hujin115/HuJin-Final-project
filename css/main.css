@@ -65,16 +65,22 @@ textarea {
     top: 0;
     right: 0;
     left: 0;
-    background-color:pink;
+    background-color:#FAFAFA;
      overflow: hidden;
    /* background-image:  url(".png");*/
     /* opacity: 0.3;*/
 }
 
 h1 {
-    font-size:5em;
-    color: blue;
+    font-size:3em;
+    color:#0B2161;
     z-index: 999;
+    margin: auto;
+    position: absolute;
+    right: 10%;
+    bottom: 12%;
+    font-family:Lato;
+
     
 
 }
@@ -117,63 +123,101 @@ img {
    
     /*background-color: gray;*/
     position: absolute;
-    /*opacity: 0.3;*/
+    color: black;
+    border-radius: 100px;
+    border:3px red solid;
+    opacity: 0;
 }
-.spots li:nth-child(1) {
+.spots li.solved {
+    opacity: 1;
+}
+
+
+div[data-level="1"] .hero1 {
  
     top: 280px;
     left: 560px;
     width: 80px;
     height: 80px;
-    color: black;
-    border-radius: 100px;
-    border:3px red solid;
 
 }
-.spots li:nth-child(2) {
+div[data-level="1"] .hero2{
     width: 30px;
     height: 180px;
-    color: black;
-    border-radius: 100px;
-    border:3px red solid;
     top: 200px;
     left: 200px;
 }
 
-.spots li:nth-child(3) {
+div[data-level="1"] .hero3 {
      width: 20px;
     height: 180px;
-    color: black;
-    border-radius: 100px;
-    border:3px red solid;
     top: 455px;
-    left: 290px;
+    left: 290px;    
 }
 
-.hero {
-   /* opacity: 0.3;*/
-    display: none;
-    margin:0 auto;
-}
-.shown {
-    /*opacity: 1.0;*/
-    display: block;
+div[data-level="1"] .hero4 {
+     width: 50px;
+    height: 50px;
+    top: 535px;
+    left: 350px;
 }
 
 
 
-/*.help {
+
+div[data-level="2"] .hero1 {
+ 
+    top: 400px;
+    left: 270px;
+    width: 50px;
+    height: 50px;
+ 
+
+}
+div[data-level="2"] .hero2{
+    width: 180px;
+    height: 50px;
+    top: 320px;
+    left: 200px;
+   
+}
+
+div [data-level="2"] .hero3 {
+     width: 200px;
+    height: 40px;
+    top: 540px;
+    left: 200px; 
+ 
+}
+
+/*div[data-level="2"] .hero4 {
+     width: 50px;
+    height: 50px;
+    top: 535px;
+    left: 350px;
     
-  width: 20%;
-    position: absolute;
-    left: 80%;
-    top: 0%;
-    height: 20%;
-    z-index: 9999;
+}*/
 
-}
-*/
 .level {
+    display: none;
+}
+
+
+
+
+
+.countdown {
+    font-size: 60px;
+    position: absolute;
+    right: 47.8%;
+    top: 311px;
+    color: #868A08;
+   }
+
+
+
+
+/*.level {
     height: 5%;
     width: 5%;
     position: absolute;
@@ -187,15 +231,15 @@ img {
     position: absolute;
     left: 25%;
     top: 20%;
-}
+}*/
 
-.search {
+/*.search {
     height: 5%;
     width: 5%;
     position: absolute;
     left: 40%;
     top: 20%;
-}
+}*/
 
 .pause {
 
@@ -217,11 +261,11 @@ img {
 }
 .watch {
 
-    height: 5%;
-    width: 5%;
+    height: 8%;
+    width: 8%;
     position: absolute;
-    left: 85%;
-    top: 20%;
+    left: 46%;
+    top: 18%;
 
 }
 
