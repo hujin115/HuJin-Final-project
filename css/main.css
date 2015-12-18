@@ -98,13 +98,22 @@ h1 {
 
 
 
-.tree {
+.tree1 {
 
     width: 10%;
     height: 20%;
     position: absolute;
     bottom:25%;
     right: -1%;
+}
+
+.tree2 {
+
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    bottom:18%;
+    left: -1%;
 }
 
 .santa1 {
@@ -416,8 +425,9 @@ div[data-level="5"] .hero4 {
 .countdown {
     font-size: 60px;
     position: absolute;
-    right: 47.8%;
-    top: 311px;
+    right: 45.8%;
+    
+    top: 14%;
     color: #868A08;
    }
 
@@ -468,11 +478,11 @@ div[data-level="5"] .hero4 {
 }
 .watch {
 
-    height: 8%;
-    width: 8%;
+    height: 10%;
+    width: 10%;
     position: absolute;
-    left: 46%;
-    top: 18%;
+    left: 48%;
+    top: 14%;
 
 }
 
